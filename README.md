@@ -1,14 +1,11 @@
-<p align="left">EAE 😎! <br>Meu nome e Guilherme, Mas pode me chamar de Xingu<br>Estudante de Engenharia da Computação - UEMG -  4º Periodo</p>
+<h1>EAE 😎! </h1>
 
-###
+<h3>Meu nome e Guilherme, Mas pode me chamar de Xingu</h3>
+<p>Estudante de Engenharia da Computação - UEMG -  4º Periodo</p>
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=XinguHe&hide_title=false&hide_rank=true&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dark&locale=pt-br&hide_border=true&order=1" height="150" alt="stats graph"  />
-  <img src="https://streak-stats.demolab.com?user=XinguHe&locale=pt-br&mode=daily&theme=dark&hide_border=true&border_radius=5&order=3" height="150" alt="streak graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=XinguHe&locale=pt-br&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dark&hide_border=true&order=2" height="150" alt="languages graph"  />
-</div>
+<hr>
 
-###
+<h3>Redes SooS</h3>
 
 <div align="left">
   <a href="@xinguhe" target="_blank">
@@ -22,7 +19,9 @@
   </a>
 </div>
 
-###
+<hr>
+
+<h4>Os bagulho que sei  ai kjkkkkk</h4>
 
 <div align="left">
   <img src="https://skillicons.dev/icons?i=gamemakerstudio" height="40" alt="gamemakerstudio logo"  />
@@ -40,8 +39,10 @@
   <img src="https://skillicons.dev/icons?i=py" height="40" alt="python logo"  />
 </div>
 
-###
+<hr>
+
+<p>spotify foddaz</p>
 
 [![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=yheene47qnfznz9lhsodgcvdx&cover_image=false&theme=default&show_offline=false&background_color=121212&interchange=true&bar_color_cover=true)](https://spotify-github-profile.vercel.app/api/view?uid=yheene47qnfznz9lhsodgcvdx&redirect=true)
 
-###
+
