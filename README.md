@@ -42,10 +42,6 @@
 
 ###
 
-<div align="center">
-  <a href="https://open.spotify.com/user/GoldenFoxy01">
-    <img src="![Alt text](https://spotify-recently-played-readme.vercel.app/api?user=yheene47qnfznz9lhsodgcvdx&count={5})" alt="Spotify recently played"  />
-  </a>
-</div>
+[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=yheene47qnfznz9lhsodgcvdx&cover_image=false&theme=default&show_offline=false&background_color=121212&interchange=true&bar_color_cover=true)](https://spotify-github-profile.vercel.app/api/view?uid=yheene47qnfznz9lhsodgcvdx&redirect=true)
 
 ###
