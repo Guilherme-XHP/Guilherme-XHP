@@ -45,6 +45,6 @@
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/XinguHe/XinguHe/output/snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/XinguHe/XinguHe/snake.svg" alt="Snake animation" />
 
 ###
