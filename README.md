@@ -1,7 +1,5 @@
 [![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=yheene47qnfznz9lhsodgcvdx&cover_image=true&theme=natemoo-re&show_offline=true&background_color=640000&interchange=true&bar_color=53b14f&bar_color_cover=true)](https://spotify-github-profile.vercel.app/api/view?uid=yheene47qnfznz9lhsodgcvdx&redirect=true)
 
-<hr>
-
 <h2 align=center>EAE 😎!</h2>
 
 <h3  align=center>Meu nome e Guilherme, Mas pode me chamar de Xingu</h3>
