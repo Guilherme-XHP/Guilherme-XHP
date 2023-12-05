@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Guilherme Caetano</title>
+    <link rel="stylesheet" href="./scr/styles.css" />
+    <script src="./scr/main.js"></script>
+</head>
+
+<body>
+<div id="container">
+        <div id="info">
+            <h1 style="display:block"><span style="float:left;">Guilherme Caetano</span> <span  style="float:right;">SITE GITHUB</span></h1><br/><br/>
+
+            <h3 style="text-align:center;;display:block;"><span>Digite "help" para ver os comandos</span>
+                <br/>
+            </h3>
+    </div>
+
+    <div id="workingdiv">   
+        <div id="consoleinput">
+        C:/><input type="text" id="inputform" autofocus="autofocus" />
+        </div>
+
+
+    </div>
+    </div>
+</body>
+
+<script>
+
+    var help ="<br/><div id='archivehead'>help - reload - matrix - github - musica - video</div><br/>";
+
+    $("#inputform").keyup(function(event){
+        if(event.keyCode == 13){
+            C_getData();
+        }
+    });
+
+    function C_getData(){
+        $('#info').append('<div style="block">C:/> '+$("#inputform").val()+'<br/>');
+
+        switch($("#inputform").val()){
+        case "":$('#info').append('</div>');
+                $("#inputform").val()='';
+                break;
+
+        case "help": $('#info').append(help+'</div>');
+                     $("#inputform").val('');
+                     break;
+
+        case "reload":
+                $("#inputform").val('');
+                location.reload();
+                break; 
+            
+        case "video":
+                $('#info').append('Um video aleatorio que eu achei por ai<br/></div>');
+                $('#info').append('<video src="diamante.mp4" controls></video><br/></div>');
+                $("#inputform").val('');
+                break;
+
+        case "musica":
+                $('#info').append('Welcome to the Jungle - GUNS<br/></div>');
+                $('#info').append('<audio src="wttj.mp3" controls></audio><br/></div>');
+                $("#inputform").val('');
+                break;
+            
+        case "matrix":
+                window.location.href = "matrix.html";
+                break;
+            
+        case "github":
+                window.open("https://github.com/Guilherme-XHP", "_blank");
+                $("#inputform").val('');
+                break;
+
+       
+
+        
+        default: $('#info').append('Comando Invalido.</div>');
+                 $("#inputform").val('');
+                 break;
+        }
+
+    }
+</script>
+</html>
