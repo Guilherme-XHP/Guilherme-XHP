@@ -1,89 +1,168 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Primary Meta Tags -->
+<title>Guilherme - Portfolio</title>
+<meta name="title" content="Guilherme - Portfolio">
+<meta name="description" content="Sim, usei um template pq tava sem tempo">
 
-<head>
-    <meta charset="UTF-8">
-    <title>Guilherme Caetano</title>
-    <link rel="stylesheet" href="./scr/styles.css" />
-    <script src="./scr/main.js"></script>
-</head>
 
-<body>
-<div id="container">
-        <div id="info">
-            <h1 style="display:block"><span style="float:left;">Guilherme Caetano</span> <span  style="float:right;">SITE GITHUB</span></h1><br/><br/>
+    <!-- Link -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/favicon/favicon-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="assets/favicon/android-chrome-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="512x512"
+      href="assets/favicon/android-chrome-512x512.png"
+    />
+    <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico" />
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utilities.css" />
+  </head>
+  <body>
+    <header id="hero">
+      <!-- Navbar -->
+      <nav class="navbar">
+        <div class="container">
+          <!-- Logo -->
+          <h1 id="logo">
+            <a href="https://github.com/Guilherme-XHP"><img src="./assets/logo.png" alt="Your Logo" /></a>
+          </h1>
+          <!-- Navbar links -->
+          <ul class="nav-menu">
+            <li><a class="nav-link" href="https://github.com/Guilherme-XHP">GITHUB</a></li>
+            <li>
+              <a class="nav-link btn btn-primary" href="#projects"
+                >Projetos <i class="fas fa-arrow-right"></i
+              ></a>
+            </li>
 
-            <h3 style="text-align:center;;display:block;"><span>Digite "help" para ver os comandos</span>
-                <br/>
-            </h3>
-    </div>
+            <!-- Toggle switch -->
+            <div class="theme-switch">
+              <input type="checkbox" id="switch" />
+              <label class="toggle-icons" for="switch">
+                 <img class="moon" src="assets/moon.svg" />
+                 <img class="sun" src="assets/sun.svg" />
+              </label>
+            </div>
+            <!-- Hamburger menu -->
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </div>
+      </nav>
 
-    <div id="workingdiv">   
-        <div id="consoleinput">
-        C:/><input type="text" id="inputform" autofocus="autofocus" />
+      <section class="header-container">
+        <img class="profile-image" src="./assets/profile-image.jpg" alt="" />
+        <h1>Ola, Meu nome e Guilherme</h1>
+
+        <div class="content-text">
+          <h2>Desenvolvedor de Jogos</h2>
+          <p>
+            Estudante de Engenharia da Computação - UEMG - 4º Periodo
+          </p>
+         </div>
+         <a href="#projects" class="btn btn-secondary">Bora</a>
+      </section>
+   </header>
+   
+   
+   <!-- Projects -->
+   <section id ="projects" class="project-container container">
+      <div class="division"></div>
+     <div class="content-text">
+        <h2>Projetos</h2>
+        <p>Projetos atuais em desenvolvimento</p>
+     </div>
+
+     <article class="project">
+
+        <!-- Project 1 -->
+        <div href="" class="card">
+           <div class="project-info">
+              <div class="project-bio">
+                 <h3>Project Element</h3>
+                 <p>Gamemaker Studio 2, GML</p>
+              </div>
+
+              <div class="project-link">
+                 <a href="#"><i class="fab fa-github"></i></a>
+              </div>
+           </div>
         </div>
 
+        <!-- Project 2 -->
+        <div href="" class="card">
+           <div class="project-info">
+              <div class="project-bio">
+                 <h3>Project Azuria</h3>
+                 <p>Gamemaker Studio 2, GML, Cancelado</p>
+              </div>
 
-    </div>
-    </div>
-</body>
+              <div class="project-link">
+                 <a href="#"><i class="fab fa-github"></i></a>
+              </div>
+           </div>
+        </div>
 
-<script>
+        <!-- Porject 3 -->
+        <div href="" class="card">
+           <div class="project-info">
+              <div class="project-bio">
+                  <h3>Rabbit Metroid Farm Game</h3>
+                  <p>Gamemaker Studio 2, GML</p>
+              </div>
 
-    var help ="<br/><div id='archivehead'>help - reload - matrix - github - musica - video</div><br/>";
+              <div class="project-link">
+                 <a href="https://github.com/Guilherme-XHP/Rabbit_Metroid_Farm_Game"><i class="fab fa-github"></i></a>
+              </div>
+           </div>
+        </div>
 
-    $("#inputform").keyup(function(event){
-        if(event.keyCode == 13){
-            C_getData();
-        }
-    });
+     </article>
+   </section>
 
-    function C_getData(){
-        $('#info').append('<div style="block">C:/> '+$("#inputform").val()+'<br/>');
-
-        switch($("#inputform").val()){
-        case "":$('#info').append('</div>');
-                $("#inputform").val()='';
-                break;
-
-        case "help": $('#info').append(help+'</div>');
-                     $("#inputform").val('');
-                     break;
-
-        case "reload":
-                $("#inputform").val('');
-                location.reload();
-                break; 
-            
-        case "video":
-                $('#info').append('Um video aleatorio que eu achei por ai<br/></div>');
-                $('#info').append('<video src="diamante.mp4" controls></video><br/></div>');
-                $("#inputform").val('');
-                break;
-
-        case "musica":
-                $('#info').append('Welcome to the Jungle - GUNS<br/></div>');
-                $('#info').append('<audio src="wttj.mp3" controls></audio><br/></div>');
-                $("#inputform").val('');
-                break;
-            
-        case "matrix":
-                window.location.href = "matrix.html";
-                break;
-            
-        case "github":
-                window.open("https://github.com/Guilherme-XHP", "_blank");
-                $("#inputform").val('');
-                break;
-
-       
-
-        
-        default: $('#info').append('Comando Invalido.</div>');
-                 $("#inputform").val('');
-                 break;
-        }
-
-    }
-</script>
+   <footer id="footer">
+      <div class="container">
+         <a href="mailto:guilhermecaetanno87123@gmail.com">guilhermecaetanno87123@gmail.com</a>
+         <!-- Social links -->
+         <div class="social">
+            <a href="https://www.linkedin.com/in/guilherme-caetano-1808a421b/"><img src="./assets/linkedin-icon.svg" alt="Linkedin"></a>
+            <a href="https://github.com/Guilherme-XHP"><img src="./assets/github-icon.svg" alt="GitHub"></a>
+         </div>
+         <p>Copyright &copy; Communitypro 2024, All rights reserved</p>
+      </div>
+   </footer>
+    <script src="js/script.js"></script>
+  </body>
 </html>
